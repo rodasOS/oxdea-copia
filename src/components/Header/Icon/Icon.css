@@ -1,0 +1,16 @@
+.icon-link{
+  color: white;
+  border-radius: 50%;
+  margin: 0.2em;
+  padding: 5px;
+  text-align: center;
+
+  &>i{
+    font-size: 0.9em;
+  }
+
+  &:hover{
+    box-shadow: 00px 0px 20px #555;
+    transform: scale(1, 1.5);
+  }
+}
