@@ -6,5 +6,23 @@ header{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+}
+
+.tres-link{
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+}
+
+@media screen {
+  
+}
+
+@media screen and (max-width: 600px){
+
+  .phone{
+    display: none;
+  }
+
 }

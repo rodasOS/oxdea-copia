@@ -1,12 +1,13 @@
 import React from 'react';
 import { Icon } from './Icon/Icon';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 export function Header() {
 	return (
 		<header>
-			<div>
-				<h3>Teléfono: 433276</h3>
+			<div className='phone'>
+				<h3>Teléfono: 56114372</h3>
 			</div>
 			<div>
 				<Icon
@@ -30,7 +31,10 @@ export function Header() {
 					icon={<i class="fa-brands fa-whatsapp"></i>}
 				/>
 			</div>
-			<div>sección 3</div>
+			<div>
+				<Link to='contacto' className='tres-link'>Contacto</Link>
+				<Link to='afiliado' className='tres-link'>Afiliado</Link>
+			</div>
 		</header>
 	);
 }
