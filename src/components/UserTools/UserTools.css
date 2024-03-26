@@ -1,0 +1,40 @@
+.UserTools{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.8em 4em;
+}
+
+.logo{
+  width: 200px;
+}
+
+.search{
+  font-size: 1.4em;
+  padding: 0.3em;
+  border: #ddd solid;
+  display: flex;
+  gap: 150px;
+
+  &>input,
+  button{
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+}
+
+.col-right{
+  display: flex;
+  gap: 20px;
+  max-width: 100vw;
+  & a{
+    text-decoration: none;
+    color: #000;
+  }  
+}
+
+.mi-usuario-link{
+  font-size: 0.6em;
+  font-weight: bold;
+}

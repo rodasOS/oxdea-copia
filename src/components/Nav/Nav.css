@@ -1,0 +1,18 @@
+.Nav{
+  background-color: #212121;
+  font-size: 0.8em;
+  padding: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  & a{
+    text-decoration: none;
+    color: white;
+  }
+
+  &>div{
+    display: flex;
+    gap: 30px;
+  }
+}

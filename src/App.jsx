@@ -1,12 +1,14 @@
 import { Header } from './components/Header/Header';
 import './App.css';
-import img from './assets/logo.webp'
+import { UserTools } from './components/UserTools/UserTols';
+import { Nav } from './components/Nav/Nav';
 
 function App() {
 	return (
 		<div className='App'>
 			<Header />
-      <img src={img} alt="" />
+			<UserTools />
+			<Nav/>
 		</div>
 	);
 }
